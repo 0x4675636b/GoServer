@@ -46,5 +46,6 @@ func handleRequest(conn net.Conn) {
 		log.Println("Data read from connection", data)
 	}
 	// TODO: add JSON Parsing and marshling of network data for data stored in buff
+	
 	//log.Println("Data is in a json format")
 }
